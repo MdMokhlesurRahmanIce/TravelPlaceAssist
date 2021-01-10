@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="select2-demo">
+
+<head>
+  <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link data-require="select2@*" data-semver="4.0.0" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.css" />
+  <script data-require="select2@*" data-semver="4.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>
+  <script data-require="angularjs@1.5.5" data-semver="1.5.5" src="https://code.angularjs.org/1.5.5/angular.js"></script>
+  <script data-require="angular-select2@v0.0.2" data-semver="v0.0.2" src="https://cdn.rawgit.com/willcrisis/angular-select2-old/v0.0.2/select2.js"></script>
+  <script src="For_exporting_html/select2-4ang1.5.js"></script>
+ 
+</head>
+
+<body ng-controller="DemoController">
+  <h1>Single selection</h1>
+  <select select2 ng-model="selected" ng-options="person.id as person.name for person in list | orderBy:'name'" ng-disabled="disabled" style="width: 200px;"></select>
+  <button type="button" ng-click="disabled = !disabled">Toggle disabled</button>
+  <p>Selected person: {{selected}}</p>
+
+  <h1>Multiple selection</h1>
+  <select select2 multiple ng-model="multipleSelected" ng-options="person.id as person.name for person in list | orderBy: 'name'" style="width: 200px;"></select>
+  <p>Selected persons: {{multipleSelected}}</p>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll.config
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.pdb
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe.config
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.rsp
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.exe
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.rsp
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.AppContext.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe.config
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.rsp
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\WebGrease.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.pdb
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.xml
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csprojAssemblyReference.cache
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csproj.CopyComplete
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.dll
+E:\Prac\OneStop\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\WebGrease.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Web.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\WebGrease.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csprojAssemblyReference.cache
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csproj.CopyComplete
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\API_Project -dnmgrd\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.rsp
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Web.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\WebGrease.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csprojAssemblyReference.cache
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csproj.CopyComplete
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.dll
+C:\Users\Mokles\Desktop\New_Monir_Vai\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.pdb
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll.config
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\OSSAV_WebAPI.pdb
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.exe.config
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csc.rsp
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.exe
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\csi.rsp
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.AppContext.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.exe.config
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\vbc.rsp
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Data.Entity.EF6.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\MySql.Web.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Cors.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\WebGrease.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Antlr3.Runtime.pdb
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\EntityFramework.SqlServer.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\Newtonsoft.Json.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\NuGet.Frameworks.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Net.Http.Formatting.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Helpers.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.Cors.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Http.WebHost.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Mvc.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Optimization.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.Razor.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\bin\System.Web.WebPages.Razor.xml
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csprojAssemblyReference.cache
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csproj.CoreCompileInputs.cache
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.csproj.CopyComplete
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.dll
+E:\Prac_Net\DP_Ehasan_Vai_1\mysql_project_api\WEB_API\OSSAV_WebAPI\OSSAV_WebAPI\obj\Debug\OSSAV_WebAPI.pdb

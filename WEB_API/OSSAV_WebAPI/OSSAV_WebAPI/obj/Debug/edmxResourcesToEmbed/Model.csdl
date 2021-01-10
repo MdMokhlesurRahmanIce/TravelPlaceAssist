@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="XamarinDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="XamarinDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CmnUser" EntityType="XamarinDBModel.CmnUser" />
+    <EntitySet Name="Comments" EntityType="XamarinDBModel.Comments" />
+    <EntitySet Name="TravelPlace" EntityType="XamarinDBModel.TravelPlace" />
+  </EntityContainer>
+  <EntityType Name="CmnUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TitleID" Type="Int64" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="CreateBy" Type="Int64" />
+  </EntityType>
+  <EntityType Name="TravelPlace">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+    <Property Name="CreateBy" Type="Int64" />
+    <Property Name="IsDeleted" Type="Boolean" />
+  </EntityType>
+</Schema>

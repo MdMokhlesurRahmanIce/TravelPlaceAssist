@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="XamarinDBModelStoreContainer" CdmEntityContainer="XamarinDBEntities">
+    <EntitySetMapping Name="CmnFeatureList">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnFeatureList">
+        <MappingFragment StoreEntitySet="CmnFeatureList">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="FeatureName" ColumnName="FeatureName" />
+          <ScalarProperty Name="FeatureID" ColumnName="FeatureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnRating">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnRating">
+        <MappingFragment StoreEntitySet="CmnRating">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="RatingScore" ColumnName="RatingScore" />
+          <ScalarProperty Name="RatingName" ColumnName="RatingName" />
+          <ScalarProperty Name="RatingID" ColumnName="RatingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnSupportsNServices">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnSupportsNServices">
+        <MappingFragment StoreEntitySet="CmnSupportsNServices">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="SupportsNServicesShortName" ColumnName="SupportsNServicesShortName" />
+          <ScalarProperty Name="SupportsNServicesFullName" ColumnName="SupportsNServicesFullName" />
+          <ScalarProperty Name="SupportsNServicesID" ColumnName="SupportsNServicesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnUserWiseFeatureAssign">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnUserWiseFeatureAssign">
+        <MappingFragment StoreEntitySet="CmnUserWiseFeatureAssign">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FeatureID" ColumnName="FeatureID" />
+          <ScalarProperty Name="UserWiseFeatureAssignID" ColumnName="UserWiseFeatureAssignID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnUserWiseZoneAssign">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnUserWiseZoneAssign">
+        <MappingFragment StoreEntitySet="CmnUserWiseZoneAssign">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ZoneID" ColumnName="ZoneID" />
+          <ScalarProperty Name="UserWiseZoneAssignID" ColumnName="UserWiseZoneAssignID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnZone">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnZone">
+        <MappingFragment StoreEntitySet="CmnZone">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ZoneShortName" ColumnName="ZoneShortName" />
+          <ScalarProperty Name="ZoneFullName" ColumnName="ZoneFullName" />
+          <ScalarProperty Name="ZoneID" ColumnName="ZoneID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestForSupportNServices">
+      <EntityTypeMapping TypeName="XamarinDBModel.RequestForSupportNServices">
+        <MappingFragment StoreEntitySet="RequestForSupportNServices">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsArgent" ColumnName="IsArgent" />
+          <ScalarProperty Name="RatingScorerComment" ColumnName="RatingScorerComment" />
+          <ScalarProperty Name="RatingScore" ColumnName="RatingScore" />
+          <ScalarProperty Name="IsRatingDone" ColumnName="IsRatingDone" />
+          <ScalarProperty Name="IsDone" ColumnName="IsDone" />
+          <ScalarProperty Name="IsPending" ColumnName="IsPending" />
+          <ScalarProperty Name="IsComplete" ColumnName="IsComplete" />
+          <ScalarProperty Name="DoneRemarks" ColumnName="DoneRemarks" />
+          <ScalarProperty Name="RequestRemarks" ColumnName="RequestRemarks" />
+          <ScalarProperty Name="DoneImageUrl" ColumnName="DoneImageUrl" />
+          <ScalarProperty Name="DoneImage" ColumnName="DoneImage" />
+          <ScalarProperty Name="RequestingImageUrl" ColumnName="RequestingImageUrl" />
+          <ScalarProperty Name="RequestingImage" ColumnName="RequestingImage" />
+          <ScalarProperty Name="DoneDate" ColumnName="DoneDate" />
+          <ScalarProperty Name="DoneByID" ColumnName="DoneByID" />
+          <ScalarProperty Name="RequestToZoneID" ColumnName="RequestToZoneID" />
+          <ScalarProperty Name="RequestTo" ColumnName="RequestTo" />
+          <ScalarProperty Name="RequestByID" ColumnName="RequestByID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="RequestFor" ColumnName="RequestFor" />
+          <ScalarProperty Name="ApproxEndDate" ColumnName="ApproxEndDate" />
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="ReqSNSID" ColumnName="ReqSNSID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserWiseSupportsNServicesPermission">
+      <EntityTypeMapping TypeName="XamarinDBModel.UserWiseSupportsNServicesPermission">
+        <MappingFragment StoreEntitySet="UserWiseSupportsNServicesPermission">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="SupportsNServicesID" ColumnName="SupportsNServicesID" />
+          <ScalarProperty Name="UserWiseSupportsNServicesAssignID" ColumnName="UserWiseSupportsNServicesAssignID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLoginHistory">
+      <EntityTypeMapping TypeName="XamarinDBModel.UserLoginHistory">
+        <MappingFragment StoreEntitySet="UserLoginHistory">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DevicePhysicalType" ColumnName="DevicePhysicalType" />
+          <ScalarProperty Name="DeviceIOMid" ColumnName="DeviceIOMid" />
+          <ScalarProperty Name="DevicePlatform" ColumnName="DevicePlatform" />
+          <ScalarProperty Name="DeviceOperatingSystemVersion" ColumnName="DeviceOperatingSystemVersion" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="DeviceManufacturer" ColumnName="DeviceManufacturer" />
+          <ScalarProperty Name="DeviceModel" ColumnName="DeviceModel" />
+          <ScalarProperty Name="DeviceIpAddress" ColumnName="DeviceIpAddress" />
+          <ScalarProperty Name="DeviceMacID" ColumnName="DeviceMacID" />
+          <ScalarProperty Name="ExpiredDateTime" ColumnName="ExpiredDateTime" />
+          <ScalarProperty Name="IsExpired" ColumnName="IsExpired" />
+          <ScalarProperty Name="VerifyCodeGeneratedDateTime" ColumnName="VerifyCodeGeneratedDateTime" />
+          <ScalarProperty Name="VerifyCode" ColumnName="VerifyCode" />
+          <ScalarProperty Name="LoginMobileNo" ColumnName="LoginMobileNo" />
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginHistoryID" ColumnName="LoginHistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CmnUserAuthentication">
+      <EntityTypeMapping TypeName="XamarinDBModel.CmnUserAuthentication">
+        <MappingFragment StoreEntitySet="CmnUserAuthentication">
+          <ScalarProperty Name="DeletePc" ColumnName="DeletePc" />
+          <ScalarProperty Name="DeleteOn" ColumnName="DeleteOn" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="UpdatePc" ColumnName="UpdatePc" />
+          <ScalarProperty Name="UpdateOn" ColumnName="UpdateOn" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatePc" ColumnName="CreatePc" />
+          <ScalarProperty Name="CreateOn" ColumnName="CreateOn" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="NoOfLogin" ColumnName="NoOfLogin" />
+          <ScalarProperty Name="AllowMultipleLogin" ColumnName="AllowMultipleLogin" />
+          <ScalarProperty Name="TimezoneID" ColumnName="TimezoneID" />
+          <ScalarProperty Name="LanguageID" ColumnName="LanguageID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ActivationCode" ColumnName="ActivationCode" />
+          <ScalarProperty Name="ActivationDate" ColumnName="ActivationDate" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="ConfirmPassword" ColumnName="ConfirmPassword" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LoginPhone" ColumnName="LoginPhone" />
+          <ScalarProperty Name="LoginEmail" ColumnName="LoginEmail" />
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="AuthenticationID" ColumnName="AuthenticationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="House">
+      <EntityTypeMapping TypeName="XamarinDBModel.House">
+        <MappingFragment StoreEntitySet="House">
+          <ScalarProperty Name="orientation" ColumnName="orientation" />
+          <ScalarProperty Name="conditioned_floor_area" ColumnName="conditioned_floor_area" />
+          <ScalarProperty Name="floor_to_ceiling_height" ColumnName="floor_to_ceiling_height" />
+          <ScalarProperty Name="num_floor_above_grade" ColumnName="num_floor_above_grade" />
+          <ScalarProperty Name="number_bedrooms" ColumnName="number_bedrooms" />
+          <ScalarProperty Name="year_built" ColumnName="year_built" />
+          <ScalarProperty Name="comments" ColumnName="comments" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Assessor_Score">
+      <EntityTypeMapping TypeName="XamarinDBModel.Assessor_Score">
+        <MappingFragment StoreEntitySet="Assessor_Score">
+          <ScalarProperty Name="label_url" ColumnName="label_url" />
+          <ScalarProperty Name="external_building_id" ColumnName="external_building_id" />
+          <ScalarProperty Name="solar_electric_array_azimuth" ColumnName="solar_electric.array_azimuth" />
+          <ScalarProperty Name="solar_electric_year" ColumnName="solar_electric.year" />
+          <ScalarProperty Name="solar_electric_num_panels" ColumnName="solar_electric.num_panels" />
+          <ScalarProperty Name="solar_electric_system_capacity" ColumnName="solar_electric.system_capacity" />
+          <ScalarProperty Name="solar_electric_capacity_known" ColumnName="solar_electric.capacity_known" />
+          <ScalarProperty Name="hvac_1_duct3_sealed" ColumnName="hvac.1.duct3.sealed" />
+          <ScalarProperty Name="hvac_1_duct3_insulated" ColumnName="hvac.1.duct3.insulated" />
+          <ScalarProperty Name="hvac_1_duct3_fraction" ColumnName="hvac.1.duct3.fraction" />
+          <ScalarProperty Name="hvac_1_duct3_location" ColumnName="hvac.1.duct3.location" />
+          <ScalarProperty Name="hvac_1_duct2_sealed" ColumnName="hvac.1.duct2.sealed" />
+          <ScalarProperty Name="hvac_1_duct2_insulated" ColumnName="hvac.1.duct2.insulated" />
+          <ScalarProperty Name="hvac_1_duct2_fraction" ColumnName="hvac.1.duct2.fraction" />
+          <ScalarProperty Name="hvac_1_duct2_location" ColumnName="hvac.1.duct2.location" />
+          <ScalarProperty Name="hvac_1_duct1_sealed" ColumnName="hvac.1.duct1.sealed" />
+          <ScalarProperty Name="hvac_1_duct1_insulated" ColumnName="hvac.1.duct1.insulated" />
+          <ScalarProperty Name="hvac_1_duct1_fraction" ColumnName="hvac.1.duct1.fraction" />
+          <ScalarProperty Name="hvac_1_duct1_location" ColumnName="hvac.1.duct1.location" />
+          <ScalarProperty Name="hvac_0_duct3_sealed" ColumnName="hvac.0.duct3.sealed" />
+          <ScalarProperty Name="hvac_0_duct3_insulated" ColumnName="hvac.0.duct3.insulated" />
+          <ScalarProperty Name="hvac_0_duct3_fraction" ColumnName="hvac.0.duct3.fraction" />
+          <ScalarProperty Name="hvac_0_duct3_location" ColumnName="hvac.0.duct3.location" />
+          <ScalarProperty Name="hvac_0_duct2_sealed" ColumnName="hvac.0.duct2.sealed" />
+          <ScalarProperty Name="hvac_0_duct2_insulated" ColumnName="hvac.0.duct2.insulated" />
+          <ScalarProperty Name="hvac_0_duct2_fraction" ColumnName="hvac.0.duct2.fraction" />
+          <ScalarProperty Name="hvac_0_duct2_location" ColumnName="hvac.0.duct2.location" />
+          <ScalarProperty Name="hvac_0_duct1_sealed" ColumnName="hvac.0.duct1.sealed" />
+          <ScalarProperty Name="hvac_0_duct1_insulated" ColumnName="hvac.0.duct1.insulated" />
+          <ScalarProperty Name="hvac_0_duct1_fraction" ColumnName="hvac.0.duct1.fraction" />
+          <ScalarProperty Name="hvac_0_duct1_location" ColumnName="hvac.0.duct1.location" />
+          <ScalarProperty Name="left_window_shgc" ColumnName="left.window_shgc" />
+          <ScalarProperty Name="left_window_u_value" ColumnName="left.window_u_value" />
+          <ScalarProperty Name="left_window_code" ColumnName="left.window_code" />
+          <ScalarProperty Name="left_window_method" ColumnName="left.window_method" />
+          <ScalarProperty Name="left_window_area" ColumnName="left.window_area" />
+          <ScalarProperty Name="left_wall_assembly_code" ColumnName="left.wall_assembly_code" />
+          <ScalarProperty Name="right_window_shgc" ColumnName="right.window_shgc" />
+          <ScalarProperty Name="right_window_u_value" ColumnName="right.window_u_value" />
+          <ScalarProperty Name="right_window_code" ColumnName="right.window_code" />
+          <ScalarProperty Name="right_window_method" ColumnName="right.window_method" />
+          <ScalarProperty Name="right_window_area" ColumnName="right.window_area" />
+          <ScalarProperty Name="right_wall_assembly_code" ColumnName="right.wall_assembly_code" />
+          <ScalarProperty Name="back_window_shgc" ColumnName="back.window_shgc" />
+          <ScalarProperty Name="back_window_u_value" ColumnName="back.window_u_value" />
+          <ScalarProperty Name="back_window_code" ColumnName="back.window_code" />
+          <ScalarProperty Name="back_window_method" ColumnName="back.window_method" />
+          <ScalarProperty Name="back_window_area" ColumnName="back.window_area" />
+          <ScalarProperty Name="back_wall_assembly_code" ColumnName="back.wall_assembly_code" />
+          <ScalarProperty Name="front_window_shgc" ColumnName="front.window_shgc" />
+          <ScalarProperty Name="front_window_u_value" ColumnName="front.window_u_value" />
+          <ScalarProperty Name="front_window_code" ColumnName="front.window_code" />
+          <ScalarProperty Name="front_window_method" ColumnName="front.window_method" />
+          <ScalarProperty Name="front_window_area" ColumnName="front.window_area" />
+          <ScalarProperty Name="front_wall_assembly_code" ColumnName="front.wall_assembly_code" />
+          <ScalarProperty Name="floor_1_floor_assembly_code" ColumnName="floor.1.floor_assembly_code" />
+          <ScalarProperty Name="floor_1_foundation_insulation_level" ColumnName="floor.1.foundation_insulation_level" />
+          <ScalarProperty Name="floor_1_foundation_type" ColumnName="floor.1.foundation_type" />
+          <ScalarProperty Name="floor_1_floor_area" ColumnName="floor.1.floor_area" />
+          <ScalarProperty Name="floor_1_floor_name" ColumnName="floor.1.floor_name" />
+          <ScalarProperty Name="floor_0_floor_assembly_code" ColumnName="floor.0.floor_assembly_code" />
+          <ScalarProperty Name="floor_0_foundation_insulation_level" ColumnName="floor.0.foundation_insulation_level" />
+          <ScalarProperty Name="floor_0_foundation_type" ColumnName="floor.0.foundation_type" />
+          <ScalarProperty Name="floor_0_floor_area" ColumnName="floor.0.floor_area" />
+          <ScalarProperty Name="floor_0_floor_name" ColumnName="floor.0.floor_name" />
+          <ScalarProperty Name="roof_1_skylight_shgc" ColumnName="roof.1.skylight_shgc" />
+          <ScalarProperty Name="roof_1_skylight_u_value" ColumnName="roof.1.skylight_u_value" />
+          <ScalarProperty Name="roof_1_skylight_code" ColumnName="roof.1.skylight_code" />
+          <ScalarProperty Name="roof_1_skylight_method" ColumnName="roof.1.skylight_method" />
+          <ScalarProperty Name="roof_1_skylight_area" ColumnName="roof.1.skylight_area" />
+          <ScalarProperty Name="roof_1_ceiling_assembly_code" ColumnName="roof.1.ceiling_assembly_code" />
+          <ScalarProperty Name="roof_1_roof_type" ColumnName="roof.1.roof_type" />
+          <ScalarProperty Name="roof_1_roof_absorptance" ColumnName="roof.1.roof_absorptance" />
+          <ScalarProperty Name="roof_1_roof_color" ColumnName="roof.1.roof_color" />
+          <ScalarProperty Name="roof_1_roof_assembly_code" ColumnName="roof.1.roof_assembly_code" />
+          <ScalarProperty Name="roof_1_roof_area" ColumnName="roof.1.roof_area" />
+          <ScalarProperty Name="roof_1_roof_name" ColumnName="roof.1.roof_name" />
+          <ScalarProperty Name="roof_0_skylight_shgc" ColumnName="roof.0.skylight_shgc" />
+          <ScalarProperty Name="roof_0_skylight_u_value" ColumnName="roof.0.skylight_u_value" />
+          <ScalarProperty Name="roof_0_skylight_code" ColumnName="roof.0.skylight_code" />
+          <ScalarProperty Name="roof_0_skylight_method" ColumnName="roof.0.skylight_method" />
+          <ScalarProperty Name="roof_0_skylight_area" ColumnName="roof.0.skylight_area" />
+          <ScalarProperty Name="roof_0_ceiling_assembly_code" ColumnName="roof.0.ceiling_assembly_code" />
+          <ScalarProperty Name="roof_0_roof_type" ColumnName="roof.0.roof_type" />
+          <ScalarProperty Name="roof_0_roof_absorptance" ColumnName="roof.0.roof_absorptance" />
+          <ScalarProperty Name="roof_0_roof_color" ColumnName="roof.0.roof_color" />
+          <ScalarProperty Name="roof_0_roof_assembly_code" ColumnName="roof.0.roof_assembly_code" />
+          <ScalarProperty Name="roof_0_roof_area" ColumnName="roof.0.roof_area" />
+          <ScalarProperty Name="roof_0_roof_name" ColumnName="roof.0.roof_name" />
+          <ScalarProperty Name="domestic_hot_water_energy_factor" ColumnName="domestic_hot_water.energy_factor" />
+          <ScalarProperty Name="domestic_hot_water_year" ColumnName="domestic_hot_water.year" />
+          <ScalarProperty Name="domestic_hot_water_efficiency_method" ColumnName="domestic_hot_water.efficiency_method" />
+          <ScalarProperty Name="domestic_hot_water_fuel_primary" ColumnName="domestic_hot_water.fuel_primary" />
+          <ScalarProperty Name="domestic_hot_water_type" ColumnName="domestic_hot_water.type" />
+          <ScalarProperty Name="domestic_hot_water_category" ColumnName="domestic_hot_water.category" />
+          <ScalarProperty Name="hvac_1_hvac_fraction" ColumnName="hvac.1.hvac_fraction" />
+          <ScalarProperty Name="hvac_1_hvac_name" ColumnName="hvac.1.hvac_name" />
+          <ScalarProperty Name="hvac_1_cooling_efficiency" ColumnName="hvac.1.cooling.efficiency" />
+          <ScalarProperty Name="hvac_1_cooling_year" ColumnName="hvac.1.cooling.year" />
+          <ScalarProperty Name="hvac_1_heating_efficiency_method" ColumnName="hvac.1.heating.efficiency_method" />
+          <ScalarProperty Name="hvac_1_heating_fuel_primary" ColumnName="hvac.1.heating.fuel_primary" />
+          <ScalarProperty Name="hvac_1_heating_type" ColumnName="hvac.1.heating.type" />
+          <ScalarProperty Name="hvac_0_hvac_fraction" ColumnName="hvac.0.hvac_fraction" />
+          <ScalarProperty Name="hvac_0_hvac_name" ColumnName="hvac.0.hvac_name" />
+          <ScalarProperty Name="hvac_0_cooling_efficiency" ColumnName="hvac.0.cooling.efficiency" />
+          <ScalarProperty Name="hvac_0_cooling_year" ColumnName="hvac.0.cooling.year" />
+          <ScalarProperty Name="hvac_0_cooling_efficiency_method" ColumnName="hvac.0.cooling.efficiency_method" />
+          <ScalarProperty Name="hvac_0_cooling_type" ColumnName="hvac.0.cooling.type" />
+          <ScalarProperty Name="hvac_0_heating_efficiency" ColumnName="hvac.0.heating.efficiency" />
+          <ScalarProperty Name="hvac_0_heating_year" ColumnName="hvac.0.heating.year" />
+          <ScalarProperty Name="hvac_0_heating_efficiency_method" ColumnName="hvac.0.heating.efficiency_method" />
+          <ScalarProperty Name="hvac_0_heating_fuel_primary" ColumnName="hvac.0.heating.fuel_primary" />
+          <ScalarProperty Name="hvac_0_heating_type" ColumnName="hvac.0.heating.type" />
+          <ScalarProperty Name="window_construction_same" ColumnName="window_construction_same" />
+          <ScalarProperty Name="wall_construction_same" ColumnName="wall_construction_same" />
+          <ScalarProperty Name="envelope_leakage" ColumnName="envelope_leakage" />
+          <ScalarProperty Name="air_sealing_present" ColumnName="air_sealing_present" />
+          <ScalarProperty Name="blower_door_test" ColumnName="blower_door_test" />
+          <ScalarProperty Name="orientation" ColumnName="orientation" />
+          <ScalarProperty Name="conditioned_floor_area" ColumnName="conditioned_floor_area" />
+          <ScalarProperty Name="floor_to_ceiling_height" ColumnName="floor_to_ceiling_height" />
+          <ScalarProperty Name="num_floor_above_grade" ColumnName="num_floor_above_grade" />
+          <ScalarProperty Name="number_bedrooms" ColumnName="number_bedrooms" />
+          <ScalarProperty Name="year_built" ColumnName="year_built" />
+          <ScalarProperty Name="town_house_walls" ColumnName="town_house_walls" />
+          <ScalarProperty Name="shape" ColumnName="shape" />
+          <ScalarProperty Name="zip_code" ColumnName="zip_code" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="comments" ColumnName="comments" />
+          <ScalarProperty Name="assessment_date" ColumnName="assessment_date" />
+          <ScalarProperty Name="assessment_type" ColumnName="assessment_type" />
+          <ScalarProperty Name="utility_generated_package" ColumnName="utility_generated_package" />
+          <ScalarProperty Name="utility_generated_base" ColumnName="utility_generated_base" />
+          <ScalarProperty Name="utility_pellet_wood_package" ColumnName="utility_pellet_wood_package" />
+          <ScalarProperty Name="utility_cord_wood_package" ColumnName="utility_cord_wood_package" />
+          <ScalarProperty Name="utility_lpg_package" ColumnName="utility_lpg_package" />
+          <ScalarProperty Name="utility_fuel_oil_package" ColumnName="utility_fuel_oil_package" />
+          <ScalarProperty Name="utility_natural_gas_package" ColumnName="utility_natural_gas_package" />
+          <ScalarProperty Name="utility_electric_package" ColumnName="utility_electric_package" />
+          <ScalarProperty Name="utility_pellet_wood_base" ColumnName="utility_pellet_wood_base" />
+          <ScalarProperty Name="utility_cord_wood_base" ColumnName="utility_cord_wood_base" />
+          <ScalarProperty Name="utility_lpg_base" ColumnName="utility_lpg_base" />
+          <ScalarProperty Name="utility_fuel_oil_base" ColumnName="utility_fuel_oil_base" />
+          <ScalarProperty Name="utility_natural_gas_base" ColumnName="utility_natural_gas_base" />
+          <ScalarProperty Name="utility_electric_base" ColumnName="utility_electric_base" />
+          <ScalarProperty Name="carbon_package" ColumnName="carbon_package" />
+          <ScalarProperty Name="carbon_base" ColumnName="carbon_base" />
+          <ScalarProperty Name="site_eui_package" ColumnName="site_eui_package" />
+          <ScalarProperty Name="site_eui_base" ColumnName="site_eui_base" />
+          <ScalarProperty Name="site_energy_package" ColumnName="site_energy_package" />
+          <ScalarProperty Name="site_energy_base" ColumnName="site_energy_base" />
+          <ScalarProperty Name="package_score" ColumnName="package_score" />
+          <ScalarProperty Name="base_score" ColumnName="base_score" />
+          <ScalarProperty Name="source_eui_package" ColumnName="source_eui_package" />
+          <ScalarProperty Name="source_eui_base" ColumnName="source_eui_base" />
+          <ScalarProperty Name="package_cost" ColumnName="package_cost" />
+          <ScalarProperty Name="base_cost" ColumnName="base_cost" />
+          <ScalarProperty Name="source_energy_asset_package" ColumnName="source_energy_asset_package" />
+          <ScalarProperty Name="source_energy_asset_base" ColumnName="source_energy_asset_base" />
+          <ScalarProperty Name="source_energy_total_package" ColumnName="source_energy_total_package" />
+          <ScalarProperty Name="source_energy_total_base" ColumnName="source_energy_total_base" />
+          <ScalarProperty Name="cooling_present" ColumnName="cooling_present" />
+          <ScalarProperty Name="create_label_date" ColumnName="create_label_date" />
+          <ScalarProperty Name="weather_station_location" ColumnName="weather_station_location" />
+          <ScalarProperty Name="building_id" ColumnName="building_id" />
+          <ScalarProperty Name="label_number" ColumnName="label_number" />
+          <ScalarProperty Name="qualified_assessor_id" ColumnName="qualified_assessor_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="XamarinDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Assessor_Score">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="qualified_assessor_id" Type="int" />
+    <Property Name="label_number" Type="float" />
+    <Property Name="building_id" Type="int" />
+    <Property Name="weather_station_location" Type="float" />
+    <Property Name="create_label_date" Type="datetime" />
+    <Property Name="cooling_present" Type="float" />
+    <Property Name="source_energy_total_base" Type="float" />
+    <Property Name="source_energy_total_package" Type="float" />
+    <Property Name="source_energy_asset_base" Type="float" />
+    <Property Name="source_energy_asset_package" Type="float" />
+    <Property Name="base_cost" Type="float" />
+    <Property Name="package_cost" Type="float" />
+    <Property Name="source_eui_base" Type="float" />
+    <Property Name="source_eui_package" Type="float" />
+    <Property Name="base_score" Type="float" />
+    <Property Name="package_score" Type="float" />
+    <Property Name="site_energy_base" Type="float" />
+    <Property Name="site_energy_package" Type="float" />
+    <Property Name="site_eui_base" Type="float" />
+    <Property Name="site_eui_package" Type="float" />
+    <Property Name="carbon_base" Type="float" />
+    <Property Name="carbon_package" Type="float" />
+    <Property Name="utility_electric_base" Type="float" />
+    <Property Name="utility_natural_gas_base" Type="float" />
+    <Property Name="utility_fuel_oil_base" Type="float" />
+    <Property Name="utility_lpg_base" Type="float" />
+    <Property Name="utility_cord_wood_base" Type="float" />
+    <Property Name="utility_pellet_wood_base" Type="float" />
+    <Property Name="utility_electric_package" Type="float" />
+    <Property Name="utility_natural_gas_package" Type="float" />
+    <Property Name="utility_fuel_oil_package" Type="float" />
+    <Property Name="utility_lpg_package" Type="float" />
+    <Property Name="utility_cord_wood_package" Type="float" />
+    <Property Name="utility_pellet_wood_package" Type="float" />
+    <Property Name="utility_generated_base" Type="float" />
+    <Property Name="utility_generated_package" Type="float" />
+    <Property Name="assessment_type" Type="nvarchar" MaxLength="550" />
+    <Property Name="assessment_date" Type="datetime" />
+    <Property Name="comments" Type="nvarchar" MaxLength="550" />
+    <Property Name="address" Type="nvarchar" MaxLength="550" />
+    <Property Name="city" Type="nvarchar" MaxLength="550" />
+    <Property Name="state" Type="nvarchar" MaxLength="550" />
+    <Property Name="zip_code" Type="nvarchar" MaxLength="550" />
+    <Property Name="shape" Type="float" />
+    <Property Name="town_house_walls" Type="float" />
+    <Property Name="year_built" Type="float" />
+    <Property Name="number_bedrooms" Type="float" />
+    <Property Name="num_floor_above_grade" Type="float" />
+    <Property Name="floor_to_ceiling_height" Type="float" />
+    <Property Name="conditioned_floor_area" Type="float" />
+    <Property Name="orientation" Type="float" />
+    <Property Name="blower_door_test" Type="float" />
+    <Property Name="air_sealing_present" Type="float" />
+    <Property Name="envelope_leakage" Type="float" />
+    <Property Name="wall_construction_same" Type="float" />
+    <Property Name="window_construction_same" Type="float" />
+    <Property Name="hvac.0.heating.type" Type="float" />
+    <Property Name="hvac.0.heating.fuel_primary" Type="float" />
+    <Property Name="hvac.0.heating.efficiency_method" Type="float" />
+    <Property Name="hvac.0.heating.year" Type="float" />
+    <Property Name="hvac.0.heating.efficiency" Type="float" />
+    <Property Name="hvac.0.cooling.type" Type="float" />
+    <Property Name="hvac.0.cooling.efficiency_method" Type="float" />
+    <Property Name="hvac.0.cooling.year" Type="float" />
+    <Property Name="hvac.0.cooling.efficiency" Type="float" />
+    <Property Name="hvac.0.hvac_name" Type="float" />
+    <Property Name="hvac.0.hvac_fraction" Type="float" />
+    <Property Name="hvac.1.heating.type" Type="float" />
+    <Property Name="hvac.1.heating.fuel_primary" Type="float" />
+    <Property Name="hvac.1.heating.efficiency_method" Type="float" />
+    <Property Name="hvac.1.cooling.year" Type="float" />
+    <Property Name="hvac.1.cooling.efficiency" Type="float" />
+    <Property Name="hvac.1.hvac_name" Type="float" />
+    <Property Name="hvac.1.hvac_fraction" Type="float" />
+    <Property Name="domestic_hot_water.category" Type="float" />
+    <Property Name="domestic_hot_water.type" Type="float" />
+    <Property Name="domestic_hot_water.fuel_primary" Type="float" />
+    <Property Name="domestic_hot_water.efficiency_method" Type="float" />
+    <Property Name="domestic_hot_water.year" Type="float" />
+    <Property Name="domestic_hot_water.energy_factor" Type="float" />
+    <Property Name="roof.0.roof_name" Type="float" />
+    <Property Name="roof.0.roof_area" Type="float" />
+    <Property Name="roof.0.roof_assembly_code" Type="float" />
+    <Property Name="roof.0.roof_color" Type="float" />
+    <Property Name="roof.0.roof_absorptance" Type="float" />
+    <Property Name="roof.0.roof_type" Type="float" />
+    <Property Name="roof.0.ceiling_assembly_code" Type="float" />
+    <Property Name="roof.0.skylight_area" Type="float" />
+    <Property Name="roof.0.skylight_method" Type="float" />
+    <Property Name="roof.0.skylight_code" Type="float" />
+    <Property Name="roof.0.skylight_u_value" Type="float" />
+    <Property Name="roof.0.skylight_shgc" Type="float" />
+    <Property Name="roof.1.roof_name" Type="float" />
+    <Property Name="roof.1.roof_area" Type="float" />
+    <Property Name="roof.1.roof_assembly_code" Type="float" />
+    <Property Name="roof.1.roof_color" Type="float" />
+    <Property Name="roof.1.roof_absorptance" Type="float" />
+    <Property Name="roof.1.roof_type" Type="float" />
+    <Property Name="roof.1.ceiling_assembly_code" Type="float" />
+    <Property Name="roof.1.skylight_area" Type="float" />
+    <Property Name="roof.1.skylight_method" Type="float" />
+    <Property Name="roof.1.skylight_code" Type="float" />
+    <Property Name="roof.1.skylight_u_value" Type="float" />
+    <Property Name="roof.1.skylight_shgc" Type="float" />
+    <Property Name="floor.0.floor_name" Type="float" />
+    <Property Name="floor.0.floor_area" Type="float" />
+    <Property Name="floor.0.foundation_type" Type="float" />
+    <Property Name="floor.0.foundation_insulation_level" Type="float" />
+    <Property Name="floor.0.floor_assembly_code" Type="float" />
+    <Property Name="floor.1.floor_name" Type="float" />
+    <Property Name="floor.1.floor_area" Type="float" />
+    <Property Name="floor.1.foundation_type" Type="float" />
+    <Property Name="floor.1.foundation_insulation_level" Type="float" />
+    <Property Name="floor.1.floor_assembly_code" Type="float" />
+    <Property Name="front.wall_assembly_code" Type="float" />
+    <Property Name="front.window_area" Type="float" />
+    <Property Name="front.window_method" Type="float" />
+    <Property Name="front.window_code" Type="float" />
+    <Property Name="front.window_u_value" Type="float" />
+    <Property Name="front.window_shgc" Type="float" />
+    <Property Name="back.wall_assembly_code" Type="float" />
+    <Property Name="back.window_area" Type="float" />
+    <Property Name="back.window_method" Type="float" />
+    <Property Name="back.window_code" Type="float" />
+    <Property Name="back.window_u_value" Type="float" />
+    <Property Name="back.window_shgc" Type="float" />
+    <Property Name="right.wall_assembly_code" Type="float" />
+    <Property Name="right.window_area" Type="float" />
+    <Property Name="right.window_method" Type="float" />
+    <Property Name="right.window_code" Type="float" />
+    <Property Name="right.window_u_value" Type="float" />
+    <Property Name="right.window_shgc" Type="float" />
+    <Property Name="left.wall_assembly_code" Type="float" />
+    <Property Name="left.window_area" Type="float" />
+    <Property Name="left.window_method" Type="float" />
+    <Property Name="left.window_code" Type="float" />
+    <Property Name="left.window_u_value" Type="float" />
+    <Property Name="left.window_shgc" Type="float" />
+    <Property Name="hvac.0.duct1.location" Type="float" />
+    <Property Name="hvac.0.duct1.fraction" Type="float" />
+    <Property Name="hvac.0.duct1.insulated" Type="float" />
+    <Property Name="hvac.0.duct1.sealed" Type="float" />
+    <Property Name="hvac.0.duct2.location" Type="float" />
+    <Property Name="hvac.0.duct2.fraction" Type="float" />
+    <Property Name="hvac.0.duct2.insulated" Type="float" />
+    <Property Name="hvac.0.duct2.sealed" Type="float" />
+    <Property Name="hvac.0.duct3.location" Type="float" />
+    <Property Name="hvac.0.duct3.fraction" Type="float" />
+    <Property Name="hvac.0.duct3.insulated" Type="float" />
+    <Property Name="hvac.0.duct3.sealed" Type="float" />
+    <Property Name="hvac.1.duct1.location" Type="float" />
+    <Property Name="hvac.1.duct1.fraction" Type="float" />
+    <Property Name="hvac.1.duct1.insulated" Type="float" />
+    <Property Name="hvac.1.duct1.sealed" Type="float" />
+    <Property Name="hvac.1.duct2.location" Type="float" />
+    <Property Name="hvac.1.duct2.fraction" Type="float" />
+    <Property Name="hvac.1.duct2.insulated" Type="float" />
+    <Property Name="hvac.1.duct2.sealed" Type="float" />
+    <Property Name="hvac.1.duct3.location" Type="float" />
+    <Property Name="hvac.1.duct3.fraction" Type="float" />
+    <Property Name="hvac.1.duct3.insulated" Type="float" />
+    <Property Name="hvac.1.duct3.sealed" Type="float" />
+    <Property Name="solar_electric.capacity_known" Type="float" />
+    <Property Name="solar_electric.system_capacity" Type="float" />
+    <Property Name="solar_electric.num_panels" Type="float" />
+    <Property Name="solar_electric.year" Type="float" />
+    <Property Name="solar_electric.array_azimuth" Type="float" />
+    <Property Name="external_building_id" Type="int" />
+    <Property Name="label_url" Type="float" />
+  </EntityType>
+  <EntityType Name="CmnFeatureList">
+    <Key>
+      <PropertyRef Name="FeatureID" />
+    </Key>
+    <Property Name="FeatureID" Type="bigint" Nullable="false" />
+    <Property Name="FeatureName" Type="nvarchar" MaxLength="450" />
+    <Property Name="url" Type="nvarchar" MaxLength="250" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnRating">
+    <Key>
+      <PropertyRef Name="RatingID" />
+    </Key>
+    <Property Name="RatingID" Type="int" Nullable="false" />
+    <Property Name="RatingName" Type="nvarchar" MaxLength="250" />
+    <Property Name="RatingScore" Type="int" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="350" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnSupportsNServices">
+    <Key>
+      <PropertyRef Name="SupportsNServicesID" />
+    </Key>
+    <Property Name="SupportsNServicesID" Type="bigint" Nullable="false" />
+    <Property Name="SupportsNServicesFullName" Type="nvarchar" MaxLength="450" />
+    <Property Name="SupportsNServicesShortName" Type="nvarchar" MaxLength="250" />
+    <Property Name="ParentID" Type="bigint" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnUserAuthentication">
+    <Key>
+      <PropertyRef Name="AuthenticationID" />
+    </Key>
+    <Property Name="AuthenticationID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="LoginID" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoginEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoginPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ConfirmPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="RegistrationDate" Type="date" />
+    <Property Name="ExpireDate" Type="date" />
+    <Property Name="ActivationDate" Type="date" />
+    <Property Name="ActivationCode" Type="nvarchar" MaxLength="200" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="LanguageID" Type="int" />
+    <Property Name="TimezoneID" Type="int" />
+    <Property Name="AllowMultipleLogin" Type="bit" />
+    <Property Name="NoOfLogin" Type="nchar" MaxLength="10" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="350" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnUserWiseFeatureAssign">
+    <Key>
+      <PropertyRef Name="UserWiseFeatureAssignID" />
+    </Key>
+    <Property Name="UserWiseFeatureAssignID" Type="bigint" Nullable="false" />
+    <Property Name="FeatureID" Type="int" />
+    <Property Name="UserID" Type="bigint" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnUserWiseZoneAssign">
+    <Key>
+      <PropertyRef Name="UserWiseZoneAssignID" />
+    </Key>
+    <Property Name="UserWiseZoneAssignID" Type="bigint" Nullable="false" />
+    <Property Name="ZoneID" Type="int" />
+    <Property Name="UserID" Type="bigint" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CmnZone">
+    <Key>
+      <PropertyRef Name="ZoneID" />
+    </Key>
+    <Property Name="ZoneID" Type="int" Nullable="false" />
+    <Property Name="ZoneFullName" Type="nvarchar" MaxLength="550" />
+    <Property Name="ZoneShortName" Type="nvarchar" MaxLength="250" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="House">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="comments" Type="varchar" MaxLength="650" />
+    <Property Name="year_built" Type="varchar" MaxLength="650" />
+    <Property Name="number_bedrooms" Type="varchar" MaxLength="650" />
+    <Property Name="num_floor_above_grade" Type="varchar" MaxLength="650" />
+    <Property Name="floor_to_ceiling_height" Type="varchar" MaxLength="650" />
+    <Property Name="conditioned_floor_area" Type="varchar" MaxLength="650" />
+    <Property Name="orientation" Type="varchar" MaxLength="650" />
+  </EntityType>
+  <EntityType Name="RequestForSupportNServices">
+    <Key>
+      <PropertyRef Name="ReqSNSID" />
+    </Key>
+    <Property Name="ReqSNSID" Type="bigint" Nullable="false" />
+    <Property Name="RequestDate" Type="datetime" />
+    <Property Name="ApproxEndDate" Type="datetime" />
+    <Property Name="RequestFor" Type="nvarchar" MaxLength="550" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="RequestByID" Type="bigint" />
+    <Property Name="RequestTo" Type="bigint" />
+    <Property Name="RequestToZoneID" Type="int" />
+    <Property Name="DoneByID" Type="bigint" />
+    <Property Name="DoneDate" Type="datetime" />
+    <Property Name="RequestingImage" Type="image" />
+    <Property Name="RequestingImageUrl" Type="nvarchar" MaxLength="350" />
+    <Property Name="DoneImage" Type="image" />
+    <Property Name="DoneImageUrl" Type="nvarchar" MaxLength="350" />
+    <Property Name="RequestRemarks" Type="nvarchar" MaxLength="250" />
+    <Property Name="DoneRemarks" Type="nvarchar" MaxLength="250" />
+    <Property Name="IsComplete" Type="bit" />
+    <Property Name="IsPending" Type="bit" />
+    <Property Name="IsDone" Type="bit" />
+    <Property Name="IsRatingDone" Type="bit" />
+    <Property Name="RatingScore" Type="int" />
+    <Property Name="RatingScorerComment" Type="nvarchar" MaxLength="250" />
+    <Property Name="IsArgent" Type="bit" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserLoginHistory">
+    <Key>
+      <PropertyRef Name="LoginHistoryID" />
+    </Key>
+    <Property Name="LoginHistoryID" Type="bigint" Nullable="false" />
+    <Property Name="UserID" Type="bigint" />
+    <Property Name="LoginID" Type="bigint" />
+    <Property Name="LoginMobileNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="VerifyCode" Type="nvarchar" MaxLength="300" />
+    <Property Name="VerifyCodeGeneratedDateTime" Type="datetime" />
+    <Property Name="IsExpired" Type="bit" />
+    <Property Name="ExpiredDateTime" Type="datetime" />
+    <Property Name="DeviceMacID" Type="nvarchar" MaxLength="300" />
+    <Property Name="DeviceIpAddress" Type="nvarchar" MaxLength="250" />
+    <Property Name="DeviceModel" Type="nvarchar" MaxLength="250" />
+    <Property Name="DeviceManufacturer" Type="nvarchar" MaxLength="250" />
+    <Property Name="DeviceName" Type="nvarchar" MaxLength="250" />
+    <Property Name="DeviceOperatingSystemVersion" Type="nvarchar" MaxLength="250" />
+    <Property Name="DevicePlatform" Type="nvarchar" MaxLength="250" />
+    <Property Name="DeviceIOMid" Type="nvarchar" MaxLength="250" />
+    <Property Name="DevicePhysicalType" Type="nvarchar" MaxLength="350" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserWiseSupportsNServicesPermission">
+    <Key>
+      <PropertyRef Name="UserWiseSupportsNServicesAssignID" />
+    </Key>
+    <Property Name="UserWiseSupportsNServicesAssignID" Type="bigint" Nullable="false" />
+    <Property Name="SupportsNServicesID" Type="int" />
+    <Property Name="UserID" Type="bigint" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="CreatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="UpdatePc" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="DeleteBy" Type="int" />
+    <Property Name="DeleteOn" Type="datetime" />
+    <Property Name="DeletePc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="XamarinDBModelStoreContainer">
+    <EntitySet Name="Assessor_Score" EntityType="Self.Assessor_Score" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnFeatureList" EntityType="Self.CmnFeatureList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnRating" EntityType="Self.CmnRating" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnSupportsNServices" EntityType="Self.CmnSupportsNServices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnUserAuthentication" EntityType="Self.CmnUserAuthentication" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnUserWiseFeatureAssign" EntityType="Self.CmnUserWiseFeatureAssign" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnUserWiseZoneAssign" EntityType="Self.CmnUserWiseZoneAssign" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CmnZone" EntityType="Self.CmnZone" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="House" EntityType="Self.House" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RequestForSupportNServices" EntityType="Self.RequestForSupportNServices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLoginHistory" EntityType="Self.UserLoginHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserWiseSupportsNServicesPermission" EntityType="Self.UserWiseSupportsNServicesPermission" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,666 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <!-- @*start for loading image*@ -->
+    <style type="text/css">
+        .fadeMyLoaderChanged {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: #ababab;
+            z-index: 1001;
+            -moz-opacity: 0.8;
+            opacity: .70;
+            filter: alpha(opacity=80);
+        }
+
+        .modalMyLoaderChanged {
+            display: none;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            /* width: 164px;
+            height: 164px; */
+            width: 220px;
+            height: 220px;
+            padding: 30px 15px 0px;
+            border: 3px solid #ababab;
+            box-shadow: 1px 1px 10px #ababab;
+            border-radius: 20px;
+            background-color: white;
+            z-index: 1002;
+            text-align: center;
+            /* overflow: auto; */
+        }
+        /* <!-- @*end for loading image*@ --> */
+
+/* for fieldset */
+        
+        fieldset.scheduler-border
+        {
+          border: solid 1px #DDD !important;
+          padding:0 10px 10px 10px;
+          border-bottom:none;
+        }
+        legend.scheduler-border
+        {
+          width: auto !important;
+          border: none;
+          font-size:16px; 
+          padding:0 10px;
+        }
+
+
+/* for ui grid cell  currency $ sign */
+    .currency{
+        text-align:right;
+    }
+    .currency .ui-grid-cell-contents:before{
+      
+        content: '$';
+        /* //float: left; */
+         
+    }
+
+    .ForNumbered{
+        text-align:right;
+    }
+    
+    </style>
+
+    
+
+    <head>
+      <!-- for widget css -->
+  
+<!-- end for widget css -->
+
+ <!-- start for select 2 --> 
+ <link href="For_exporting_html/bootstrap.min.css" rel="stylesheet" type="text/css" />
+ <link href="For_exporting_html/select2.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="For_exporting_html/jquery-1.10.2.min.js"></script>  
+ <script type="text/javascript" src="For_exporting_html/bootstrap.min.js"></script>  
+ 
+ <script type="text/javascript" src="For_exporting_html/select2.min.js"></script> 
+ 
+  <!-- end for select 2 -->
+
+ <!-- start for toster -->
+
+ <script src="For_exporting_html/toastr.min.js"></script>
+ <link href="For_exporting_html/toastr.min.css" rel="stylesheet" />
+ <script src="For_exporting_html/CustomToastrMessage.js"></script>
+ <!-- end for toster -->
+
+ <script>
+   $(document).ready(function () {
+       "use strict";
+       $('.select2-select-00').select2({
+           allowClear: true
+       }); 
+
+       toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-bottom-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "100",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+   });
+</script>
+
+ <!-- end for select -->
+
+   <!-- DatePicker -->
+   <!-- DatePicker -->
+   <link href="For_exporting_html/bootstrap-datepicker.min.css" rel="stylesheet" />
+
+   <script src="For_exporting_html/bootstrap-datepicker.min.js"></script>
+
+   <script type="text/javascript">
+           $(function () {
+               $(".datepicker").datepicker({
+                   format: "dd/mm/yyyy",
+                   todayHighlight: true,
+                   autoclose: true
+               });
+
+               $(".datepicker").datepicker('setDate', new Date());
+           });
+
+   </script>
+ 
+
+ <script src="denimRef/Scripts/angular.min.js"></script>
+ <script src="denimRef/Scripts/angular-route.min.js"></script>
+ <script src="denimRef/Scripts/ui-grid.min.js"></script>
+ <script src="denimRef/Scripts/angular-touch.min.js"></script>
+ <script src="denimRef/Scripts/angular-animate.min.js"></script>
+ <link href="denimRef/Content/ui-grid.min.css" rel="stylesheet" />
+ 
+ <script src="For_exporting_html/pdfmake.js"></script>
+ <script src="For_exporting_html/vfs_fonts.js"></script>
+ <script src="For_exporting_html/lodash.min.js"></script>
+ 
+ <script src="denimRef/Scripts/ui-grid.min.js"></script>
+
+ <!-- For_exporting_html\ui-grid.js -->
+    <!-- Export Data Refferences -->
+    <script src="denimRef/Scripts/export-ui-grid/csv.js"></script> 
+    <script src="denimRef/Scripts/export-ui-grid/xlsx.full.min.js"></script>
+    <script src="denimRef/Scripts/export-ui-grid/FileSaver.js"></script>
+    
+    <script src="For_exporting_html/appTravelAssist.js"></script>
+ 
+
+  </head>
+  <body>
+ 
+<div class="container" ng-controller="MainCtrl">
+  <div class="row"> <b><u>Travel Place Assist Application </u> </b></div> 
+  <br/></br/>
+  
+  <!-- for user access hidden field -->
+  <input type="hidden" id="userID" readonly="readonly" ng-model="userid" />
+   <input type="hidden" id="userpassword" readonly="readonly" ng-model="userpassword" />
+  <!-- start login panel -->
+	  <div class="row" ng-show="userid==null">
+	   <div class="row">
+    
+        <div class="col-md-6">
+     
+    
+    
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">User Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtUserName"
+                                               class="form-control"
+                                               name="txtUserName" ng-model="UserNameLogin" />
+                                    </div>
+                                   
+                                </div>
+    
+	<br/>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label">Password</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtPassword"
+                                               class="form-control"
+                                               name="txtPassword" ng-model="PasswordLogin" />
+                                    </div>
+                                   
+                                </div> 
+    
+                            </div> 
+         <div class="col-md-6">
+             <div class="col-md-2" style="text-align:left;">
+                                    <span class="btn btn-info margin-right-btn">
+                                        
+                                            <i class="icon-plus" style="font-size: 20px;height: 50px;" ng-click="UserLogin()"> Login</i>
+                                     
+                                    </span>
+                                </div>
+								
+								<div class="col-md-2" style="text-align:left;">
+                                    <span class="btn btn-info margin-right-btn">
+                                         <i ng-href="#ResModal" data-toggle="modal" class="bs-tooltip" title="New Registration">
+                                            <i class="icon-plus" style="font-size: 20px;height: 50px;" > New Registration</i>
+										</i>
+                                    </span>
+                                </div>
+								<!-- ng-click="UserResigtration()" -->
+								
+          </div> 
+        </div>
+                        
+	  </div>
+  <!-- end login panel -->
+  
+  <!-- star registration panel -->
+	  <div class="row">
+	  
+	  </div>
+  <!--  end registration panel -->
+  
+  
+  <!-- after login panel start -->
+  <div class="row">
+ 
+    <!-- star for insert form -->
+
+    <div class="row" ng-show="userid!=null">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-10">
+                    Here you can easily add travel place and also can comments <br />
+
+                    <br />
+                </div>
+					<div class="col-md-2" style="text-align:left;">
+                                    <span class="btn btn-info margin-right-btn">
+                                        
+                                            <i class="icon-plus" style="font-size: 20px;height: 50px;" ng-click="Logout()"> Log Out</i>
+									 
+                                    </span>
+                                </div>
+								<br/>
+            </div>
+
+            <div class="widget-content no-padding">
+                <div class="row" id="divWaterHeater">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-12">
+                                <div class="row" style="font-weight:bold; font-size:16px; color:white; background-color:silver; text-align:left;">
+                                    Travel Place Assit
+                                </div>
+                                <br />
+
+                                <div class="row">
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <table class="table">
+
+                                                <tbody>
+                                                    <tr ng-repeat="dataModel in PlaceCreateAndCommentsList" style="font-weight:bold;font-size:14px;">
+                                                        <td ng-hide="true">{{dataModel.ID}}</td>
+
+                                                        <td style="border-top:none!important">
+
+                                                            <div class="panel panel-default">
+                                                                <div class="panel-heading">
+                                                                    <div class="row" style="font-size: 15px;padding-left: 5px;">
+                                                                        {{dataModel.Title}}
+                                                                       </div> 
+
+                                                                  
+                                                                   <div class="row" style="font-size: 12px;padding-left: 5px;">
+                                                                    {{dataModel.Description}}
+                                                                   </div> 
+                                                                   <div class="row" style="font-size: 11px;padding-left: 5px;">
+                                                                    visit Location: {{dataModel.ImageUrl}}
+                                                                   </div> 
+                                                                    
+                                                                     <div class="row" style="text-align:right!important">
+                                                                        <span class="label label-info label-mini">
+                                                                            <a href="javascript:void(0);" class="bs-tooltip" title="Edit" ng-href="#NewWaterHeaterModal" data-toggle="modal"  ng-click="editWaterHeaterPnl(dataModel,$index,dataModel.Title)">
+                                                                                <i class="icon-edit">Edit</i>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="label label-danger label-mini">
+                                                                            <a href="javascript:void(0);" class="bs-tooltip" title="Delete" ng-click="deleteWaterHeaterPnl(dataModel,$index,dataModel.Title)">
+                                                                                <i class="icon-trash">Delete</i>
+                                                                            </a>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="panel-body" ng-repeat="dataModelComments in dataModel.allComments">
+                                                                    <div class="row" style="border-color:green;border-bottom:1px;">
+                                                                        <div class="col-md-6" style="font-size: 11px;">
+                                                                            {{dataModelComments.Comment}} 
+                                                                            
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <span class="label label-info label-mini">
+                                                                                <a href="javascript:void(0);" class="bs-tooltip" title="Edit" ng-href="#CommentsModalupdate" data-toggle="modal"  ng-click="editWaterHeaterPnlComments(dataModel, $index, dataModelComments, dataModelComments.Comment )">
+                                                                                    <i class="icon-edit">Edit</i>
+                                                                                </a>
+                                                                            </span>
+                                                                            <span class="label label-danger label-mini">
+                                                                                <a href="javascript:void(0);" class="bs-tooltip" title="Delete" ng-click="deleteWaterHeaterPnlComments(dataModelComments,$index,dataModelComments.Comment)">
+                                                                                    <i class="icon-trash">Delete</i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+
+                                                                    </div> 
+																	
+																
+																
+                                                                </div>
+
+                                                                <span class="btn btn-success margin-right-btn">
+                                                                    <i href="javascript:void(0);" ng-href="#CommentsModal" data-toggle="modal" ng-click="AddWaterHeaterToPanelComments(dataModel,$index,dataModel.allComments)" class="bs-tooltip" title="Add Comment">
+                                                                        <i class="icon-plus" style="font-size: 16px;" > Add Comment</i>
+                                                                    </i>
+                                                                </span>
+                                                                
+
+                                                               
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2" style="text-align:left;">
+                                    <span class="btn btn-info margin-right-btn">
+                                        <i ng-href="#NewWaterHeaterModal" data-toggle="modal" ng-click="AddWaterHeaterToPanel()" class="bs-tooltip" title="Add Travel Place">
+                                            <i class="icon-plus" style="font-size: 20px;height: 50px;"> Add Travel Place</i>
+                                        </i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div> <!-- /.col-md-12 -->
+    <br/>
+    <br/>
+
+
+    <!-- end for inser form -->
+
+	
+	<!-- start for res modal -->
+
+    <div class="modal fade" id="ResModal">
+        <div class="modal-dialog modal-dialog-ext">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Resigtration Form</h4>
+                </div>
+                <div class="modal-body">
+                    <form novalidate name="frmResModal" id="ResModal" class="form-horizontal row-border">
+                        
+                        <div class="row">
+    
+                            <div class="col-md-8">
+     
+    
+    
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">User Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtUserNameRes"
+                                               class="form-control"
+                                               name="txtUserNameRes" ng-model="UserNameRes" />
+                                    </div>
+                                   
+                                </div>
+    
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label">Password</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtPassword"
+                                               class="form-control"
+                                               name="txtPassword" ng-model="PasswordRes" />
+                                    </div>
+                                   
+                                </div>
+								
+								  <div class="form-group">
+                                    <label class="col-md-4 control-label">Email</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtEmail"
+                                               class="form-control"
+                                               name="txtEmail" ng-model="Email" />
+                                    </div>
+                                   
+                                </div>
+								 
+    
+                            </div> 
+                            <div class="col-md-4">
+      
+                            </div> 
+                        </div>
+                         
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+    
+                    <button type="button" class="btn btn-success margin-right-btn" data-dismiss="modal" ng-click="UserResigtration()">Save</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- end res popup     -->
+    
+	
+	
+	
+    <!-- start for popup insert -->
+
+    <div class="modal fade" id="NewWaterHeaterModal">
+        <div class="modal-dialog modal-dialog-ext">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Travel Place</h4>
+                </div>
+                <div class="modal-body">
+                    <form novalidate name="frmNewWaterHeaterModal" id="NewWaterHeaterModal" class="form-horizontal row-border">
+                       
+                        <input type="hidden" id="waterHeaterID" readonly="readonly" ng-model="waterHeaterID" />
+    
+                        <div class="row">
+    
+                            <div class="col-md-8">
+     
+    
+    
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Title</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtTitle"
+                                               class="form-control"
+                                               name="txtTitle" ng-model="Title" />
+                                    </div>
+                                   
+                                </div>
+    
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label">Description</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtDescription"
+                                               class="form-control"
+                                               name="txtDescription" ng-model="Description" />
+                                    </div>
+                                   
+                                </div>
+								
+								  <div class="form-group">
+                                    <label class="col-md-4 control-label">ImageUrl</label>
+                                    <div class="col-md-6">
+                                        <!-- <input type="img" -->
+                                               <!-- id="txtImage" -->
+                                               <!-- class="form-control" -->
+                                               <!-- name="txtImage" ng-model="ImageUrl" /> -->
+											   <img src="pic_trulli.jpg" alt="Italian Trulli">
+                                    </div>
+                                   
+                                </div>
+								 
+    
+                            </div> 
+                            <div class="col-md-4">
+      
+                            </div> 
+                        </div>
+                         
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+    
+                    <button type="button" class="btn btn-success margin-right-btn" data-dismiss="modal" ng-click="AddWaterHeaterToPanelPopUP()">{{btnCreate_Insert}}</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- end insert popup     -->
+    
+     <!-- start for popup Comment -->
+
+     <div class="modal fade" id="CommentsModal">
+        <div class="modal-dialog modal-dialog-ext">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Comment</h4>
+                </div>
+                <div class="modal-body">
+                    <form novalidate name="frmCommentsModal" id="CommentsModal" class="form-horizontal row-border">
+                       
+                        <input type="hidden" id="waterHeaterID" readonly="readonly" ng-model="waterHeaterID" />
+    
+                        <div class="row">
+    
+                            <div class="col-md-8">
+     
+    
+    
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Comment</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtComments"
+                                               class="form-control"
+                                               name="txtComments" ng-model="Comment" />
+                                    </div>
+                                   
+                                </div>
+    
+                          
+     
+    
+                            </div> 
+                            <div class="col-md-4">
+      
+                            </div> 
+                        </div>
+                         
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+    
+                    <button type="button" class="btn btn-success margin-right-btn" data-dismiss="modal" ng-click="AddWaterHeaterToPanelCommentsFromPopUP()">{{btnCreate_Comments}}</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- end comments popup     -->
+     
+<!-- start for popup Comment for update -->
+
+     <div class="modal fade" id="CommentsModalupdate">
+        <div class="modal-dialog modal-dialog-ext">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Comment Update</h4>
+                </div>
+                <div class="modal-body">
+                    <form novalidate name="frmCommentsModalupdate" id="CommentsModalupdate" class="form-horizontal row-border">
+                       
+                        <input type="hidden" id="waterHeaterID" readonly="readonly" ng-model="waterHeaterID" />
+    
+                        <div class="row">
+    
+                            <div class="col-md-8">
+     
+    
+    
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Comment</label>
+                                    <div class="col-md-6">
+                                        <input type="text"
+                                               id="txtCommentsupdate"
+                                               class="form-control"
+                                               name="txtCommentsupdate" ng-model="Commentsupdate" />
+                                    </div>
+                                   
+                                </div>
+    
+                          
+     
+    
+                            </div> 
+                            <div class="col-md-4">
+      
+                            </div> 
+                        </div>
+                         
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+    
+                    <button type="button" class="btn btn-success margin-right-btn" data-dismiss="modal" ng-click="AddWaterHeaterToPanelCommentsFromPopUPupdate()">Update Comment</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- end comments popup  for update   -->
+ 
+</div>
+
+ 
+</div> <!-- /.col-md-12 -->
+ 
+ 
+<div class="row">
+  <div id="fadeMyLoaderNEWID" class="fadeMyLoaderChanged"></div>
+  <div id="modalMyLoaderNEWID" class="modalMyLoaderChanged">
+
+      <img id="loader" src="For_exporting_html/load-indicator_GIF.gif" />
+
+  </div>
+
+</div>
+ 
+  </body>
+</html>
